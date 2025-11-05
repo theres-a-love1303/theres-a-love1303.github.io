@@ -1,0 +1,77 @@
+/* Starter Code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFF0;
+    padding: 0px;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to bottom, #E8CFFF,#FFB14C 70%, #CB345F);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+/* Logo Styling */
+.logo img {
+    height: 100px;
+    width: auto;
+    j
+}
+
+/* Navigation Menu List */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+/* Navigation Links */
+.navbar a {
+    color: DA7B00;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Navigation Links */
+.navbar a:hover {
+    color: #007AA0;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+ background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+    margin-bottom: 0px;
+
+}
+
