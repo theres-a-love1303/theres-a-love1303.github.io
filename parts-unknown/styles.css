@@ -7,7 +7,7 @@
 
 /* Body Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Jeju Gothic, sans-serif;
     background-color: #FFFFF0;
     padding: 0px;
 }
@@ -28,7 +28,6 @@ body {
 .logo img {
     height: 100px;
     width: auto;
-    j
 }
 
 /* Navigation Menu List */
@@ -37,10 +36,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-}
-
-.navbar li {
-    display: inline;
 }
 
 /* Navigation Links */
@@ -60,10 +55,10 @@ body {
 /* Hero Section */
 
 .hero-section {
- background-image: url('home.png');
+    background-image: url('home.png');
     background-size: cover;
     background-position: center;
-    height: 1024px;
+    height: 713px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,4 +69,87 @@ body {
     margin-bottom: 0px;
 
 }
+ 
+/* Menu */
+.menu-section {
+;
+    font-family: Jeju Gothic, sans-serif;
+    background-image: url('menu.png');
+    background-size: cover;
+    background-position: center;
+    height: 2473px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* About */
+.about-section {
+    column-count: 2;
+
+}
+
+/* About Text */
+.about-text {
+    margin: 35px;
+    font-family: Jeju Gothic, sans-serif;
+    max-width: 35vw;
+    text-align: left;
+
+}
+
+
+/* Contact Section */
+.contact {
+
+}
+
+/* Contact Text */
+.text-module {
+    width: 70vw;
+    background-color: #FFFFF0;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    position: left;
+    margin: 10px;
+    margin-bottom: 60px;
+
+
+}
+
+
+
+
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    background-color: #007AA0;
+    padding: 20px;
+}
+
+/* Footer Text Styling */
+
+.footer-text {
+    max-width: 25vw;
+    text-align: center;
+    color: #FFFFF0;
+}
+
+
+
 
