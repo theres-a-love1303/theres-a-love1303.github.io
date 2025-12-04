@@ -1,0 +1,155 @@
+/* Starter Code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Irish Grover, system-ui;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #FFFFFF;
+    padding: 0px;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background-image: url(nav-bg.jpeg);
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    filter: drop-shadow(5px 7px 10px black);  
+}
+
+
+/* Navigation Menu List */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 0px;
+
+}
+
+
+/* About */
+.about{
+    font-family: Spectral, serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    width: 1000px;
+    padding: 50px;
+    margin: 50px;
+    background: url(about.png);
+}
+
+
+
+/* Gallery */
+.gallery {
+    flex-wrap: unset;
+    justify-content: center;
+    padding: 0px;
+}
+
+.gallery-item {
+    position: center;
+    margin: 50px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(5px 7px 10px black);
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+
+
+/* Keychain page */
+.keychains-text {
+    background-image: url('keychain-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 4200px;
+    color: white;
+    text-align: center;
+    position: left;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.keychains {
+    position: flex;
+    margin: 0px;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(5px 7px 10px black);  
+}
+
+
+/* Pins page */
+.pins-text {
+    background-image: url('pins-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 2500px;
+    color: white;
+    text-align: center;
+    position: left;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.pins {
+    position: flex;
+    margin: 0px;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(5px 7px 10px black);  
+}
+
+
+/* Figurines page */
+.figurines-text {
+    background-image: url('figurines-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 2800px;
+    color: white;
+    text-align: center;
+    position: left;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.figurines {
+    position: flex;
+    margin: 0px;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(5px 7px 10px black);  
+}
+
+
+
+
